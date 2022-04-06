@@ -206,10 +206,8 @@ public class BinaryTree<T> implements Tree<T> {
     @Override
     public Iterator<T> iteratorPreOrder() {
 
-        Queue<T> tempList = new LinkedList<>();
-        preOrder(root, tempList);
-
-        return tempList.iterator();
+        // TODO implement pre order iterator
+        return null;
     }
 
     private void preOrder(BinaryTreeNode<T> node, Queue<T> tempList) {
@@ -219,10 +217,8 @@ public class BinaryTree<T> implements Tree<T> {
     @Override
     public Iterator<T> iteratorInOrder() {
 
-        Queue<T> tempList = new LinkedList<>();
-        inOrder(root, tempList);
-
-        return tempList.iterator();
+        // TODO implement in order iterator
+        return null;
     }
 
     private void inOrder(BinaryTreeNode<T> node, Queue<T> tempList) {
@@ -232,10 +228,8 @@ public class BinaryTree<T> implements Tree<T> {
     @Override
     public Iterator<T> iteratorPostOrder() {
 
-        Queue<T> tempList = new LinkedList<>();
-        postOrder(root, tempList);
-
-        return tempList.iterator();
+        // TODO implement post order iterator
+        return null;
     }
 
     private void postOrder(BinaryTreeNode<T> node, Queue<T> tempList) {
@@ -245,10 +239,8 @@ public class BinaryTree<T> implements Tree<T> {
     @Override
     public Iterator<T> iteratorLevelOrder() {
 
-        Queue<T> tempList = new LinkedList<>();
-        levelOrder(root, tempList);
-
-        return tempList.iterator();
+        // TODO implement level order iterator
+        return null;
     }
 
     public void levelOrder(BinaryTreeNode<T> node, Queue<T> tempList) {
@@ -432,5 +424,4 @@ public class BinaryTree<T> implements Tree<T> {
         }
 
     }
-
 }
